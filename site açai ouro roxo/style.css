@@ -1,0 +1,177 @@
+/*----------------------------fontes-------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins&display=swap');
+/*----------------------------geral-------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#fff, #490083);
+}
+
+/*--------------------------------------imagem açai-----------*/
+.img-açai img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -350px;
+    left: 140px;
+}
+
+/*--------------------------------------div container------------------*/
+.cantainer {
+    background: linear-gradient(to right,#a700c9, #490083);
+    margin-left: -150px;
+    padding: 6px;
+    width: 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 darkgrey;
+}
+
+/*-----------------------------------------formulario---------------*/
+.formulario img {
+    width: 26px;
+    height: 26px;
+}
+
+form {
+    position: absolute;
+    margin-top: 80px;
+    transition: .5s;
+    width: 300px;
+    height: 400px;
+}
+
+/*-----------------------------------botao do formulario de login e catrasdo------------*/
+.buttonsform {
+    margin-top: 40px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 7px 0 rgb(255, 255, 255);
+}
+
+.buttonsform button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
+    color: #fff;
+}
+
+.btncolor {
+    position: absolute;
+    width: 108px;
+    height: 100%;
+    background: linear-gradient(to right,#5956e9, #a963f8);
+    border-radius: 30px;
+    transition: .3s;
+}
+
+/*---------------------------------------input do formulario login e senha-----*/
+input[type="text"], input[type="password"] {
+    border: none;
+    margin-top: 40px;
+    border-radius: 60px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 100%;
+}
+
+/*-----------------------------------botao login----------------*/
+button[type="submit"] {
+    background: linear-gradient(to right,#5956e9, #a963f8);
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+
+
+/*---------------------------------botao redes sociais-----------*/
+button[type="social"] {
+    background: linear-gradient(to right,#5956e9, #a963f8);
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+
+.socialconecta img {
+    width: 26px;
+    height: 26px;
+}
+
+.socialconecta {
+    position: absolute;
+    margin-top: 360px;
+    transition: .5s;
+    width: 300px;
+    height: 400px;
+}
+
+/*--------------------------------tag a esqueceu a senha-------------*/
+.esqueceu-senha {
+    margin: 10px 0 0 5px;
+    width: 80%;
+    font-size: 13px;
+}
+
+a {
+    position: relative;
+    left: 0;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #000000;
+}
+
+/*----------------------Tag id, ir os botoes ir para direita------------------------------*/
+#signin {
+    left: 25px;
+}
+
+#signup {
+    left: 450px;
+}
+
+#lado {
+    left: 25px; 
+}
+
+/*------------------------------------imagem de icones dentro do imput-------------------------------------*/
+img{
+    display: flex;
+    margin-top: -32px;
+    margin-left: 6px;
+}
